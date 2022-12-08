@@ -1,0 +1,43 @@
+.footer-text {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+
+letter-spacing: 0.2em;
+
+color: #9DA4BD;
+}
+
+.footer-list {
+    display: flex;
+    gap: 40px;
+}
+.footer-list__link {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+
+letter-spacing: 0.2em;
+
+color: #303030;
+
+    &:hover,
+    &:focus {
+        color: #FF6C00;
+    }
+
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+
+    background: #F7F7F7;
+
+    padding-top: 56px;
+    padding-bottom: 56px;
+}

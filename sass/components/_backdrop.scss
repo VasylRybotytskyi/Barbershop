@@ -1,0 +1,146 @@
+.backdrop {
+position: fixed;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    width: 528px;
+    height: 581px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    padding: 40px;
+}
+
+.modal-button__close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+&:hover,
+&:focus {
+    border-color: rgba(255, 108, 0, 1);
+}
+}
+// .modal-button__close:hover + .modal-button__icon,
+// .modal-button__close:focus + .modal-button__icon {
+//     fill:rgba(255, 108, 0, 1) ;
+// }
+
+
+.modal-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+margin-left: auto;
+margin-right: auto;
+margin-top: 2px;
+margin-bottom: 12px;
+}
+
+.modal-input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 10px;
+    outline:none;
+&:focus,
+&:hover {
+    border: 1px solid rgba(255, 108, 0, 1);
+}
+&:focus + .modal-icon ,
+&:hover + .modal-icon {
+    fill: rgba(255, 108, 0, 1);
+}
+}
+
+
+.modal-input::placeholder,
+.modal-textarea__text::placeholder {
+    font-size: 12px; 
+}
+
+.modal-label span {
+    display: block;
+    margin-bottom: 4px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+
+    letter-spacing: 0.01em;
+}
+.modal-input__wraper {
+    position: relative;
+}
+
+.modal-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+
+    
+}
+.modal-textarea__text {
+    width: 100%;
+    height: 120px;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    outline:none;
+    resize: none;
+&:focus,
+&:hover {
+    border: 1px solid rgba(255, 108, 0, 1);
+}
+}
+
+.modal-label__wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.check-label span {
+    width: 16px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+.modal-label__checkbox:checked + .check-label span {
+    background-color:rgba(255, 108, 0, 1);
+    border-color:transparent ;
+    fill: #ffffff;
+}

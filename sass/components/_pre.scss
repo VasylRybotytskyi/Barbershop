@@ -1,0 +1,36 @@
+.pre::before {
+    content: '';
+width: 60px;
+height: 1px;
+background-color: currentColor;
+
+}
+
+.pre {
+display: flex;
+align-items: center;
+gap: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+}
+
+.pre-title {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+margin-bottom: 20px;
+
+}
+

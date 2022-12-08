@@ -1,0 +1,52 @@
+.booking {
+    width: calc(100% / 2 );
+}
+.booking-button {
+    color: #ffffff;
+}
+
+.booking-title {
+    margin-bottom: 44px;
+}
+
+
+.form-booking__input {
+    width: calc(100% / 2 - 30px);
+    background-color: transparent;
+    margin-bottom: 44px;
+    outline: none;
+    padding-bottom: 8px;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+
+}
+.form-booking__input::placeholder {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+padding-bottom: 8px;
+
+
+
+}
+.form-booking__input--wrap {
+    width: calc(100% - 30px);  
+    padding-bottom: 52px;
+}
+
+
+.form-input {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+

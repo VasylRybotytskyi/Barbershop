@@ -1,0 +1,26 @@
+.button {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+background-color: transparent;
+
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 20px;
+padding-left: 20px;
+
+border: 1px solid #FF6C00;
+border-radius: 25px;
+&:hover,
+&:focus {
+    background-color: #FF6C00;
+}
+}
+
+.modal-button {
+    text-align: center;
+}

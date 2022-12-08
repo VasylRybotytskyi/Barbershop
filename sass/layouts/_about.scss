@@ -1,0 +1,60 @@
+.about-list {
+    display: flex;
+    gap: 30px;
+}
+
+.about-container {
+    display: flex;
+    gap: 30px;
+}
+
+.about-text {
+color: #303030;
+
+margin-bottom: 20px;
+}
+
+
+.about-title__secondary {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.67;
+
+letter-spacing: 0.02em;
+
+color: #555555;
+
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.about-text__secondary {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.86;
+
+letter-spacing: 0.02em;
+
+color: #555555;
+
+margin-bottom: 54px;
+
+}
+
+.about-button {
+color: #303030;
+    &:hover,
+    &:focus {
+        color: #ffffff;
+}
+
+}
+
+.about-flex {
+    max-width: 470px;
+}
